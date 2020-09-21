@@ -90,6 +90,7 @@ main {
 	background-color: #535353;
 	display: grid;
 	grid-template-columns: 1fr 5fr 3fr;
+	margin-top: 100px;
 }
 
 .membership-content {
@@ -113,6 +114,7 @@ main {
 	height: 1500px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 100px;
 }
 
 .post {
@@ -156,6 +158,7 @@ main {
 	background-color: #3a3a3a;
 	justify-items: center;
 	padding-top: 50px;
+	margin-top: 100px;
 }
 
 .TV-logo {
@@ -178,6 +181,48 @@ main {
 }
 
 .TV-button {
+	width: 250px;
+	height: 75px;
+	background-color: #202020;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+
+/* Clicks-book Section */
+.clicks-book {
+	width: 100%;
+	min-height: 500px;
+	display: grid;
+	grid-template-rows: 1fr 3fr;
+	background-color: #b9b9b9;
+	justify-items: center;
+	padding-top: 50px;
+	margin-top: 100px;
+}
+
+.clicks-title {
+	background-color: #2d2d2d;
+	width: 300px;
+	height: 100px;
+}
+
+.clicks-content {
+	background-color: #5a5a5a;
+	width: 600px;
+	height: 500px;
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+	justify-items: center;
+	padding-top: 100px;
+}
+
+.clicks-description {
+	width: 500px;
+	height: 150px;
+	background-color: #2d2d2d;
+}
+
+.clicks-button {
 	width: 250px;
 	height: 75px;
 	background-color: #202020;
