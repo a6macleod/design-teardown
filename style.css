@@ -1,10 +1,11 @@
 /*
 priority 
-1: #202020;
-2: #535353;
-3: #888888;
-4: #b9b9b9;
-5: #cccccc;
+#202020;
+#3a3a3a
+#535353;
+#888888;
+#b9b9b9;
+#cccccc;
 */
 
 /* Header section */
@@ -36,3 +37,73 @@ header .search-bar {
 	width: 175px;
 	height: 50px;
 }
+
+/* Main body Section */
+main {
+	display: grid;
+}
+
+/* featured articles section */
+.featured-articles {
+	width: 100%;
+	height: 1000px;
+	background-color: #888888;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	position: relative;
+}
+
+.featured-articles .article {
+	width: 100%;
+	height: 500px;
+	border: solid 1px black;
+}
+
+.featured-articles .article-headline {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	background-color: #202020;
+	left: 0;
+	right: 0;
+	margin: 25px auto;
+}
+
+.color-changer {
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	background-color: #b9b9b9;
+	right: 50px;
+	top: 20px;
+}
+
+.featured-articles .article-1 {
+	background-color: #535353;
+}
+
+/* membership subscription advert */
+.membership {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background-color: #535353;
+	display: grid;
+	grid-template-columns: 1fr 5fr 3fr;
+}
+
+.membership-content {
+	grid-column: 2;
+	background-color: #3a3a3a;
+}
+
+.membership-button {
+	background-color: #202020;
+	height: 50px;
+	width: 300px;
+	position: absolute;
+	bottom: 100px;
+	margin-left: 100px;
+}
+
+/* Blog post section */
