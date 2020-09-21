@@ -6,3 +6,31 @@ priority
 4: #b9b9b9;
 5: #cccccc;
 */
+
+/* Header section */
+header {
+	background: #cccccc;
+	width: 100%;
+	height: 100px;
+	display: grid;
+}
+
+header .logo {
+	background: #888888;
+	width: 150px;
+	height: 50px;
+}
+
+header .nav-link {
+	background: #b9b9b9;
+	width: 70px;
+	height: 30px;
+	border: solid 1px black;
+}
+
+header .search-bar {
+	background-color: #b9b9b9;
+	width: 175px;
+	height: 50px;
+	border: solid 1px black;
+}
