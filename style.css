@@ -13,6 +13,10 @@ header {
 	width: 100%;
 	height: 100px;
 	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	padding: 0 20px;
+	justify-items: center;
+	align-items: center;
 }
 
 header .logo {
@@ -25,12 +29,10 @@ header .nav-link {
 	background: #b9b9b9;
 	width: 70px;
 	height: 30px;
-	border: solid 1px black;
 }
 
 header .search-bar {
-	background-color: #b9b9b9;
+	background-color: #888888;
 	width: 175px;
 	height: 50px;
-	border: solid 1px black;
 }
