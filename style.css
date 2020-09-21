@@ -214,6 +214,7 @@ main {
 	grid-template-rows: 1fr 2fr;
 	justify-items: center;
 	padding-top: 100px;
+	margin-bottom: 50px;
 }
 
 .clicks-description {
@@ -228,4 +229,53 @@ main {
 	background-color: #202020;
 	margin-top: 25px;
 	border-radius: 10px;
+}
+
+/* Community spot light links */
+.community-links {
+	width: 100%;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr;
+	background-color: #cccccc;
+	margin-top: 50px;
+}
+
+.person-week {
+	grid-column: 1 / -1;
+	height: 300px;
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-gap: 50px;
+	align-items: center;
+}
+
+.person-week-image {
+	background-color: #535353;
+	height: 200px;
+	width: 200px;
+	margin-left: 100px;
+}
+
+.person-week-content {
+	background-color: #b9b9b9;
+	height: 200px;
+	margin-right: 50px;
+}
+
+.community-post {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-rows: 1fr 4fr;
+}
+
+.community-post .post-title {
+	background-color: #888888;
+	width: 80%;
+	margin: 0 50px 20px 20px;
+}
+
+.community-post .post-content {
+	background-color: #b9b9b9;
+	margin: 0 20px 0 100px;
 }
