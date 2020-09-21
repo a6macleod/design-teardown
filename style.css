@@ -279,3 +279,35 @@ main {
 	background-color: #b9b9b9;
 	margin: 0 20px 0 100px;
 }
+
+/* Design Systems advert section */
+.design-systems-ad {
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	background-color: #b9b9b9;
+	margin-top: 100px;
+	padding-left: 100px;
+}
+
+.systems-title {
+	background-color: #2d2d2d;
+	width: 300px;
+	height: 100px;
+	align-self: center;
+}
+
+.systems-content {
+	background-color: #888888;
+	width: 70%;
+	height: 200px;
+}
+
+.systems-button {
+	width: 250px;
+	height: 75px;
+	background-color: #202020;
+	margin-top: 25px;
+	border-radius: 10px;
+}
