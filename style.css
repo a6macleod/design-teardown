@@ -146,3 +146,41 @@ main {
 .blog-posts .advert-bright {
 	background-color: #3a3a3a;
 }
+
+/* Smashing TV section */
+.smashing-TV {
+	width: 100%;
+	min-height: 500px;
+	display: grid;
+	grid-template-rows: 3fr 2fr 2fr 2fr;
+	background-color: #3a3a3a;
+	justify-items: center;
+	padding-top: 50px;
+}
+
+.TV-logo {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-color: #202020;
+}
+.TV-title {
+	width: 300px;
+	height: 100px;
+	background-color: #202020;
+	margin-top: 25px;
+}
+
+.TV-content {
+	width: 500px;
+	height: 150px;
+	background-color: #2d2d2d;
+}
+
+.TV-button {
+	width: 250px;
+	height: 75px;
+	background-color: #202020;
+	margin-top: 25px;
+	border-radius: 10px;
+}
