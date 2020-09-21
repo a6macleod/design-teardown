@@ -104,6 +104,45 @@ main {
 	position: absolute;
 	bottom: 100px;
 	margin-left: 100px;
+	border-radius: 10px;
 }
 
 /* Blog post section */
+.blog-posts {
+	width: 100%;
+	height: 1500px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.post {
+	background-color: #b9b9b9;
+	border: solid 1px black;
+	padding-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.post-title {
+	width: 200px;
+	height: 50px;
+	background-color: #3a3a3a;
+	margin-bottom: 50px;
+}
+
+.post-author {
+	width: 100px;
+	height: 25px;
+	background-color: #535353;
+	margin-bottom: 50px;
+}
+
+.post-content {
+	max-width: 100%;
+	height: 200px;
+	background-color: #888888;
+}
+
+.blog-posts .advert-bright {
+	background-color: #3a3a3a;
+}
